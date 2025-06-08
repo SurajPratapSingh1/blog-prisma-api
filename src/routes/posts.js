@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken'
-const express = require('express')
+import express from 'express'
 const JWT_SECRET = process.env.JWT_SECRET
 
 function auth(req, res, next) {

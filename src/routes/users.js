@@ -2,7 +2,7 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 
 const JWT_SECRET = process.env.JWT_SECRET 
-const express = require('express');
+import express from 'express'
 
 export default function (prisma) {
     const router = express.Router()
